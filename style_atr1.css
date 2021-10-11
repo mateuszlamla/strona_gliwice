@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("atr1.jpg");
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 1%;
+    position: fixed;
+    left: 3%;
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.8s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
+div.div_img_kolejkowo {
+    display: inline-block;
+    text-align: center;
+}
+
+.img_kolejkowo {
+    margin: 1%;
+}
+
+
+table.table_kolejkowo {
+    border: 3px solid #000000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.table_kolejkowo td,
+table.table_kolejkowo th {
+    border: 1px solid #000000;
+    padding: 5px 4px;
+}
+
+table.table_kolejkowo tbody td {
+    font-size: 13px;
+}
+
+table.table_kolejkowo thead {
+    background: #CFCFCF;
+    border-bottom: 3px solid #000000;
+}
+
+table.table_kolejkowo thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.section_tlo {
+    max-width: 60%;
+    margin: auto;
+    background-color: #060c21;
+    color: #fff;
+}
+
+.content {
+    padding-left: 13%;
+    padding-right: 13%;
+}
