@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/palmiarnia_background.jpg");
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+}
+
+div.menu ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 1%;
+    position: fixed;
+    left: 3%;
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.8s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
+div.palmiarnia_img {
+    text-align: center;
+}
+
+div.inline_block {
+    display: inline-block;
+
+}
+
+img.img_pawilony {
+    float: right;
+}
+
+
+.section_tlo {
+    max-width: 60%;
+    margin: auto;
+    background-color: #060c21;
+    color: #fff;
+}
+
+.content {
+    padding-left: 13%;
+    padding-right: 13%;
+}
